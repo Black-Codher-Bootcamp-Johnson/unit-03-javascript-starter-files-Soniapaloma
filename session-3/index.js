@@ -15,3 +15,9 @@ function conversation() {
     console.log("Goodbye");
 }
 conversation();
+
+function futureAge(name, currentAge) {
+    let futureAge = currentAge + 5
+    return "Hi " + name + " you will be " + futureAge + " in 5 years"
+}
+console.log(futureAge( "Sonia" , 30));
